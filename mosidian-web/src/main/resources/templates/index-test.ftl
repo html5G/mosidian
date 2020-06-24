@@ -39,7 +39,6 @@
 
 </head>
 
-<body>
 
 
 <!--[if lte IE 9]>
@@ -146,13 +145,20 @@
                     <a data-scroll-nav="14" href="#" >
                         <i class='iconfont icongouwuche'></i>售后服务</a>
                 </li>
+                <li class="lang-change">
+                    <#--                    <a data-scroll-nav="15" href="#" class="language-change-zh">-->
+                    <button id="langZh" class="lang-zh">中文</button>
+                    <span>\</span>
+                    <button id="langEn" class="lang-en" style="color:#1f8fff">EN</button>
+                    <#--                    </a>-->
+                </li>
             </ul>
         </div>
-        <div class="lang-change">
-            <button id="langZh" class="lang-zh">中文</button>
-            <span>\</span>
-            <button id="langEn" class="lang-en" style="color:#1f8fff">EN</button>
-        </div>
+<#--        <div class="lang-change">-->
+<#--            <button id="langZh" class="lang-zh">中文</button>-->
+<#--            <span>\</span>-->
+<#--            <button id="langEn" class="lang-en" style="color:#1f8fff">EN</button>-->
+<#--        </div>-->
 
     </div>
 </nav>
@@ -206,7 +212,7 @@
                             <p> 我们为国内知名企业提供专业的创意综合性服务<br>
                                 业务范围涵盖“品牌管理及运营、创意设计、会展营销服务、展厅设计搭建<br>
                                 公关活动演艺演出、媒体整合传播、广告设计制作、制药机械设备智能康养产品”等领域。</p >
-                            <a href="cooperationPDF1"><h4>查看详情 ></h4></a>
+                            <a href="javascript:"><h4>查看详情 ></h4></a>
 
                         </div>
                     </div>
@@ -222,6 +228,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 offset-lg-2">
+                <h2 style="color: #181818;text-align: center;">企业服务</h2>
                 <div class="section_title text-center">
                     <h2>为什么选择莫斯蒂恩</h2>
                     <p>莫斯蒂恩为企业提供多领域的服务，以专业服务弥补企业发展短板，帮助企业专注于核心业务，在自己的专业领域提升竞争力。世界专业而美好，莫斯蒂恩则致力于用服务让企业更专业。</p>
@@ -358,26 +365,35 @@
                 <div class="Grid"
                      style="display: flex;width: 1140px; display: -webkit-flex;flex-wrap: wrap;align-items:center;justify-content:space-around;">
                     <div style="width: 260px;height: 280px;">
+                        <div>
+                            <span class="index-span"><a href="acosWebService" style="color: #fff">科技为先</a></span>
                         <img src="img/business/businessMp1.jpg"
                              style="display:block; margin:0 auto;width:100px; height:100px;background-size: cover;-webkit-clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);">
-                        <h5 style="text-align: center">以人为本</h5>
-                        <hr/>
+
+                        </div>
+                            <hr/>
                         <p class="business-system-color" style="font-size: 12px;text-align: center">满足初创需求</p>
                         <hr/>
                         <p class="business-system-color" style="font-size: 13px">初创公司的核心不是技术能力，提供满足需求的ERP等心选产品。</p>
                     </div>
                     <div style="width: 260px;height: 280px;">
+                        <div>
+                        <span class="index-span"><a href="acosPerson" style="color: #fff">以人为本</a></span>
                         <img src="img/business/businessMp2.jpg"
                              style="display:block; margin:0 auto;width:100px; height:100px;background-size: cover;-webkit-clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);">
-                        <h5 style="text-align: center">规范管理员工</h5>
+                        </div>
+                            <h5 style="text-align: center">规范管理员工</h5>
                         <hr/>
                         <p class="business-system-color" style="font-size: 12px;text-align: center">规范管理员工</p>
                         <hr/>
                         <p class="business-system-color" style="font-size: 13px">通过系统规范员工行为，避免损害公司利益的行为。</p>
                     </div>
                     <div style="width: 260px;height: 280px;">
-                        <img src="img/business/businessMp3.jpg"
+                        <div>
+                            <span class="index-span"><a href="acosOffice" style="color: #fff">随时办公</a></span>
+                            <img src="img/business/businessMp3.jpg"
                              style="display:block; margin:0 auto;width:100px; height:100px;background-size: cover;-webkit-clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);">
+                        </div>
                         <h5 class="business-system-color" style="text-align: center">随时随地移动办公</h5>
                         <hr/>
                         <p class="business-system-color" style="font-size: 12px;text-align: center">成为用户体验最佳的互联网金融平台</p>
@@ -385,9 +401,12 @@
                         <p class="business-system-color" style="font-size: 13px">随时随地管理企业需求，打通企业管理的“人财货客”全链条。</p>
                     </div>
                     <div style="width: 260px;height: 280px;">
+                        <div>
+                        <span class="index-span"><a href="acosUrl" style="color: #fff">即时义务</a></span>
                         <img src="img/business/businessMp4.jpg"
                              style="display:block; margin:0 auto;width:100px; height:100px;background-size: cover;-webkit-clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);">
-                        <h5 class="business-system-color" style="text-align: center">即时业务洞察</h5>
+                        </div>
+                            <h5 class="business-system-color" style="text-align: center">即时业务洞察</h5>
                         <hr/>
                         <p class="business-system-color" style="font-size: 12px;text-align: center">成为用户体验最佳的互联网金融平台</p>
                         <hr/>
@@ -408,7 +427,8 @@
         <div class="row aios">
             <div class="col-lg-8 offset-lg-2">
                 <div class="section_title text-center">
-                    <h1 class="page-title">莫斯蒂恩带您走进高端商业圈</h1>
+                    <h2 style="color: #181818;text-align: center;">招商系统</h2>
+                    <h1 class="page-title"">莫斯蒂恩带您走进高端商业圈</h1>
                     <p class="high-business-circle-info">中国付费会员制高端商务品牌</p>
                 </div>
             </div>
@@ -450,13 +470,13 @@
     </div>
 </div>
 <#--莫斯蒂恩助您实现商业目标-->
-<div class="services pb-100 pt-90 gray-bg">
+<div class="services pb-100 pt-90 gray-bg" style="background-color: #000000">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 offset-lg-2">
                 <div class="section_title text-center">
-                    <h2>莫斯蒂恩助您实现商业目标</h2>
-                    <p>莫斯蒂恩网络科技有限公司利用先进的互联网技术，打破原有的行业运营模式，
+                    <h2 style="color: #FFFFFF">莫斯蒂恩助您实现商业目标</h2>
+                    <p style="color: #FFFFFF">莫斯蒂恩网络科技有限公司利用先进的互联网技术，打破原有的行业运营模式，
                         将发展过程中积累的技术和业务经验转化和应用于信息化整合平台中，为企业提供现代化营销新平台。</p>
                 </div>
             </div>
@@ -469,7 +489,7 @@
                     </div>
                     <div class="services_content">
                         <h4>商业计划</h4>
-                        <p style="color: black">创新项目规划!</br>深入市场挖掘!</br>专业创新定制!</p>
+                        <p style="color: #FFFFFF">创新项目规划!</br>深入市场挖掘!</br>专业创新定制!</p>
                     </div>
                 </div>
             </div>
@@ -480,7 +500,7 @@
                     </div>
                     <div class="services_content">
                         <h4>数字营销</h4>
-                        <p style="color: black">提升营销效率!</br>降低成本!</br>提升企业价值!</p>
+                        <p style="color: #FFFFFF">提升营销效率!</br>降低成本!</br>提升企业价值!</p>
                     </div>
                 </div>
             </div>
@@ -491,7 +511,7 @@
                     </div>
                     <div class="services_content">
                         <h4>专业支持</h4>
-                        <p style="color: black">专业互联网提供商!</br>手把手教您修改网站信息!</br>完善的升级方案!</p>
+                        <p style="color: #FFFFFF">专业互联网提供商!</br>手把手教您修改网站信息!</br>完善的升级方案!</p>
                     </div>
                 </div>
             </div>
@@ -501,12 +521,13 @@
 <!--会员系统-->
 
 <!--====== 客户系统 BCOS ======-->
-<div data-scroll-index="4" style="background: #0b0b0b" class="become bg_cover pt-95 pb-100">
+<div data-scroll-index="4" style="background: #FFFFFF" class="become bg_cover pt-95 pb-100">
     <!--     style="background-image: url(img/bg.jpg)">-->
     <div class="container">
         <div class="row">
             <div class="col-lg-8 offset-lg-2">
                 <div class="become_contant text-center">
+                    <h2 style="color: #181818;text-align: center;">客户系统</h2>
                     <h5>与我们一起获得成功</h5>
                     <h2>是否想从今天开始增加业务量？</h2>
                     <a id="registerKH" class="button button-bg button-white">成为客户</a>
@@ -518,13 +539,13 @@
 <!--====== BECOME PART ENDS ======-->
 
 <!--====== 产品5 PART START 我们的客户 ======-->
-<div  class="client pb-100 pt-90" >
+<div  class="client pb-100 pt-90" style="background-color: #000000">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 offset-lg-2">
                 <div class="section_title text-center">
-                    <h2>我们的客户</h2>
-                    <p>客户的微笑是我们努力追求的！</p>
+                    <h2 style="color: #FFFFFF">我们的客户</h2>
+                    <p style="color: #FFFFFF">客户的微笑是我们努力追求的！</p>
                 </div>
             </div>
         </div>
@@ -592,7 +613,7 @@
 <!--====== CLIENT PART ENDS ======-->
 
 <!--====== 合作伙伴 PART START ======-->
-<div  class="brand pt-95 pb-100" style="background-color: #0b0b0b">
+<div  class="brand pt-95 pb-100" style="background-color: #FFFFFF">
     <div class="container">
         <div class="brand_slied">
             <div class="singel_brand">
@@ -630,45 +651,45 @@
 <!--====== BRAND PART ENDS ======-->
 <!--====== 保障系统 ======-->
 <!--====== 保障系统 ======-->
-<div  data-scroll-index="5" class="pb-40">
+<div  data-scroll-index="5" class="pb-40" style="background-color: #000000">
     <div class="col-lg-12">
         <div class="project_menu text-center pt-60 pb-40">
-            <h2 style="margin-bottom: 20px"><b>保障系统</b></h2>
-            <h3 style="margin-bottom: 20px">客户端保障协议</h3>
+            <h2 style="margin-bottom: 20px; color: #FFFFFF"><b>保障系统</b></h2>
+            <h3 style="margin-bottom: 20px; color: #FFFFFF">客户端保障协议</h3>
             <ul>
                 <li><h3 id="safeguardButtenA" style="color: #1f8ffd">APS·ICAS&nbsp;</h3></li>
-                <li><h3 id="safeguardButtenB">BPS·ICAS&nbsp;</h3></li>
-                <li><h3 id="safeguardButtenC">CPS·ICAS</h3></li>
+                <li><h3 id="safeguardButtenB" style="color: #FFFFFF">BPS·ICAS&nbsp;</h3></li>
+                <li><h3 id="safeguardButtenC" style="color: #FFFFFF">CPS·ICAS</h3></li>
             </ul>
         </div>
         <div id="safeguardA" class="text-center col-lg-8 offset-lg-2">
-            <h3>A客户端·保障协议</h3>
-            <a class="btn h5-adapter" data-toggle="modal" data-target="#modalA" href="#" style="font-size: 20px">《上海莫斯蒂恩网络科技有限公司·APS·ICAS》</a>
+            <h3 style="color: #FFFFFF">A客户端·保障协议</h3>
+            <a class="btn h5-adapter" data-toggle="modal" data-target="#modalA" href="#" style="font-size: 20px;color: #FFFFFF">《上海莫斯蒂恩网络科技有限公司·APS·ICAS》</a>
         </div>
         <div id="safeguardB" class="text-center show-acos">
-            <h3>B客户端·保障协议</h3>
-            <a class="btn h5-adapter" data-toggle="modal" data-target="#modalB" href="#" style="font-size: 20px">《上海莫斯蒂恩网络科技有限公司·BPS·ICAS》</a>
+            <h3 style="color: #FFFFFF">B客户端·保障协议</h3>
+            <a class="btn h5-adapter" data-toggle="modal" data-target="#modalB" href="#" style="font-size: 20px;color: #FFFFFF">《上海莫斯蒂恩网络科技有限公司·BPS·ICAS》</a>
         </div>
         <div id="safeguardC" class="text-center show-acos">
-            <h3>C客户端·保障协议</h3>
-            <a class="btn h5-adapter" data-toggle="modal" data-target="#modalC" href="#" style="font-size: 20px">《上海莫斯蒂恩网络科技有限公司·CPS·ICAS》</a>
+            <h3 style="color: #FFFFFF" >C客户端·保障协议</h3>
+            <a class="btn h5-adapter" data-toggle="modal" data-target="#modalC" href="#" style="font-size: 20px;color: #FFFFFF">《上海莫斯蒂恩网络科技有限公司·CPS·ICAS》</a>
         </div>
         <div class="project_menu text-center pt-60 pb-40">
-            <h3 style="margin-bottom: 20px">数据协议</h3>
+            <h3 style="margin-bottom: 20px; color: #FFFFFF">客户端数据协议</h3>
             <ul>
                 <li><h3 id="dataA" style="color: #1f8ffd">ICSE&nbsp;</h3></li>
-                <li><h3 id="dataB">ICID&nbsp;</h3></li>
+                <li><h3 id="dataB" style="color: #FFFFFF">ICID&nbsp;</h3></li>
             </ul>
         </div>
         <div id="dataShowA" class="text-center col-lg-8 offset-lg-2">
-            <h3>数据加密算法</h3>
+            <h3 style="color: #FFFFFF">数据加密算法</h3>
             <a class="btn h5-adapter" data-toggle="modal" data-target="#modaldataA" href="#"
-               style="font-size: 20px">《上海莫斯蒂恩网络科技有限公司·ICSE·SEID》</a>
+               style="font-size: 20px;color: #FFFFFF">《上海莫斯蒂恩网络科技有限公司·ICSE·SEID》</a>
         </div>
         <div id="dataShowB" class="text-center show-acos">
-            <h3>大数据分析算法</h3>
+            <h3 style="color: #FFFFFF">大数据分析算法</h3>
             <a class="btn h5-adapter" data-toggle="modal" data-target="#modaldataB" href="#"
-               style="font-size: 20px">《上海莫斯蒂恩网络科技有限公司·ICID·SEID》</a>
+               style="font-size: 20px;color: #FFFFFF">《上海莫斯蒂恩网络科技有限公司·ICID·SEID》</a>
         </div>
     </div>
 </div>
@@ -681,8 +702,9 @@
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <div class="section_title text-center">
-                    <h2 class="tmic" style="color: white">TMIC</h2>
-                    <p class="abc" style="color: white">上海莫斯蒂恩网络科技有限公司成立于2020年5月18日，公司总部位于上海市奉贤区，
+                    <h2 style="color: #0b0b0b;text-align: center">我们的团队</h2>
+                    <h2 class="tmic" style="color: #000000">TMIC</h2>
+                    <p class="abc" style="color: #000000">上海莫斯蒂恩网络科技有限公司成立于2020年5月18日，公司总部位于上海市奉贤区，
                         是经奉贤区市场监管局批准成立的一家创新型企业，
                         上海莫斯蒂恩网络科技有限公司始终以“为客户提供整体解决方案、
                         为客户创造价值”为目标，在”和谐、上进、奉献、包容、厚德”企业文化的倡导下，
@@ -883,10 +905,10 @@
 <div  class="modal fade bs-mosidian-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
-            <!--            <div class="modal-header">-->
-            <!--                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>-->
-            <!--                </button>-->
-            <!--            </div>-->
+            <div class="modal-header">
+                           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                      </button>
+                  </div>
             <div class="modal-body">
                 <div class="ms-content">
                     <h3>企业概况</h3>

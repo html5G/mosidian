@@ -129,7 +129,6 @@ public class EnterpriseController extends AbstractController {
         user.setPassword(new Sha256Hash(user.getPassword(), salt).toHex());
         user.setSalt(salt);
         return enterpriseService.saveEnterpriseVo(enterprise,user);
-
     }
 
     /**

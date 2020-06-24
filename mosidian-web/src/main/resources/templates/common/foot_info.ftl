@@ -39,7 +39,7 @@
             <div class="footer-flex">
                 <div>
                     <div class="title pt-70">
-                        <a href="#"><img src="img/logo.png" alt="Logo" style="width: 160px;height: 40px"></a>
+                        <a href="#"><img src="img/logoTo.png" alt="Logo" style="width: 160px;height: 40px"></a>
                     </div>
                     <div class="info pt-30" style="width: 220px;font-size: 14px;color: gainsboro">
                         <span class="foot-font">免费咨询服务热线</span>
@@ -417,7 +417,7 @@
                             <li><a data-toggle="modal" data-target="#exampleModalScrollable" href="#"><i
                                             class="fa fa-angle-right"></i>我的团队</a>
                             </li>
-                            <li><a data-toggle="modal" data-target="#exampleMod" href="#"><i
+                            <li><a id="exampleMod" data-toggle="modal" data-target="" href="#"><i
                                             class="fa fa-angle-right"></i>联系我们</a>
                             </li>
                         </ul>
@@ -431,6 +431,9 @@
                 <div class="modal-content" align="center">
                     <div class="modal-body">
                         <div class="client_text">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
                             <p>敬请期待</p></div>
                     </div>
                     <div class="modal-footer">
@@ -516,10 +519,10 @@
 <div class="modal fade bs-mosidian-modal-lg" id="valueModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
-            <!--<div class="modal-header">
+            <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
                 </button>
-            </div>-->
+            </div>
             <div class="modal-body">
                 <div class="ms-content">
                     <h3>Mosidian价值观</h3>
@@ -610,10 +613,10 @@
      aria-labelledby="myModalLabel">
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
-            <!--<div class="modal-header">
+            <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
                 </button>
-            </div>-->
+            </div>
             <div class="modal-body">
                 <div class="ms-content">
                     <h3>Mosidian招贤纳士</h3>
@@ -704,10 +707,10 @@
 <div class="modal fade bs-mosidian-modal-lg" id="aiosModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
-            <!--<div class="modal-header">
+            <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
                 </button>
-            </div>-->
+            </div>
             <div class="modal-body">
                 <div class="ms-content">
                     <h3>Mosidian招商计划</h3>
@@ -825,6 +828,9 @@
             window.location.href = "http://www.mosidian.com/mosidian-admin/#/home"
         })
         $("#weixinUrl").click(function () {
+            dolphin.iframe("/sys/acos/consult2", "微信联系", "375px", "410px")
+        })
+        $("#exampleMod").click(function () {
             dolphin.iframe("/sys/acos/consult2", "微信联系", "375px", "410px")
         })
     })

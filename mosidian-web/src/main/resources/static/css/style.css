@@ -203,10 +203,12 @@ h2 {
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 15px;
+    /*color: #FFFFFF;*/
 }
 
 .section_title
 p {
+    /*color: #FFFFFF;*/
 }
 
 /*======
@@ -612,7 +614,7 @@ PREALODER
     position: absolute;
     width: 0%;
     height: 1px;
-    background-color: #006ed9;
+    /*background-color: #006ed9;*/
     bottom: 0;
     left: 0;
     -webkit-transition: all 0.5s ease-in;
@@ -745,6 +747,7 @@ PREALODER
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 15px;
+    color: #FFFFFF;
 }
 
 .services_content p {
@@ -1623,7 +1626,8 @@ p.form-message.error {
 /*aios start*/
 .high-business-circle-container {
     padding:40px 0 25px 0;
-    background: url("../img/AIOS/service-advantages-bg.png") center center no-repeat;
+    /*background: url("../img/AIOS/service-advantages-bg.png") center center no-repeat;*/
+    background-color: #FFFFFF;
 }
 /*.aios {*/
 /*    background: url("../img/AIOS/service-advantages-bg.png") center center no-repeat;*/
@@ -1652,11 +1656,11 @@ p.form-message.error {
 }
 .high-business-circle-info {
     margin: 20px 0;
-    color:#fff;
+    /*color:#fff;*/
     font-size: 18px;
 }
 .high-business-date {
-    color:#fff;
+    /*color:#fff;*/
     font-size: 14px;
 }
 .high-business-look-detail {
@@ -1702,7 +1706,7 @@ p.form-message.error {
     -khtml-opacity: 0.8;
     /*opacity: 0.8;*/
    /*background: url("../img/AIOS/free-application-bg.png") center center no-repeat;*/
-    background-color: #000000;
+    background-color: #FFFFFF;
 }
 
 .free-img {
@@ -1716,7 +1720,7 @@ p.form-message.error {
     font-size: 32px;
     font-family: PingFang SC;
     font-weight: 500;
-    color: rgba(255, 255, 255, 1);
+    /*color: rgba(255, 255, 255, 1);*/
 }
 
 .page-content {
@@ -1742,14 +1746,14 @@ p.form-message.error {
     font-size: 22px;
     font-family: PingFang SC;
     font-weight: 500;
-    color: rgba(255, 255, 255, 1);
+    /*color: rgba(255, 255, 255, 1);*/
 }
 
 .page-zhiti p {
     font-size: 16px;
     font-weight: normal;
     line-height: 26px;
-    color: rgba(255, 255, 255, 1);
+    /*color: rgba(255, 255, 255, 1);*/
     margin-bottom: 0;
 }
 
@@ -1810,7 +1814,7 @@ p.form-message.error {
     background: #0c5460;
 }
 #abstart{
-    background: black;
+    background: #FFFFFF;
 }
 .tmic{
     color: white;
@@ -1819,14 +1823,17 @@ p.form-message.error {
 
 
 .lang-change {
-    position: absolute;
-    top: 50%;
-    right: 12%;
-    padding:5px 8px;
-    transform: translateY(-50%);
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*right: 12%;*/
+    /*padding:5px 8px;*/
+    /*transform: translateY(-50%);*/
+    width: 78px;
+    height: 25px;
     border-radius: 40px;
     border: 1px solid white;
     color: white;
+    text-align: center;
 }
 .lang-change .lang-zh,
 .lang-change .lang-en{
@@ -2004,3 +2011,27 @@ p.form-message.error {
     cursor: pointer;
 }
 
+.index-span {
+    position: absolute;
+    margin-left: 97px;
+    z-index: 80;
+    margin-top: 37px;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    text-align: center;
+    background: rgba(0,0,0,0.6);
+    font-size: 14px;
+    padding: 6px;
+    font-weight: 400;
+    font-size: 14px;
+    border-radius: 20px;
+}
+.index-span:hover {
+    background: #fff !important;
+}
+.index-span:hover  {
+    color:#1f8fff;
+    transition: all .3s linear;
+    transform: scale(1.2);
+
+}

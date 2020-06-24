@@ -353,35 +353,35 @@ $(function(){
         $("#safeguardB").addClass("show-acos");
         $("#safeguardC").addClass("show-acos");
         $("#safeguardButtenA").css("color","#1f8ffd");
-        $("#safeguardButtenB").css("color","black");
-        $("#safeguardButtenC").css("color","black");
+        $("#safeguardButtenB").css("color","#ffffff");
+        $("#safeguardButtenC").css("color","#ffffff");
     })
     $("#safeguardButtenB").click(function(){
         $("#safeguardB").removeClass("show-acos");
         $("#safeguardA").addClass("show-acos");
         $("#safeguardC").addClass("show-acos");
-        $("#safeguardButtenA").css("color","black");
+        $("#safeguardButtenA").css("color","#ffffff");
         $("#safeguardButtenB").css("color","#1f8ffd");
-        $("#safeguardButtenC").css("color","black");
+        $("#safeguardButtenC").css("color","#ffffff");
     })
     $("#safeguardButtenC").click(function(){
         $("#safeguardC").removeClass("show-acos");
         $("#safeguardB").addClass("show-acos");
         $("#safeguardA").addClass("show-acos");
-        $("#safeguardButtenA").css("color","black");
-        $("#safeguardButtenB").css("color","black");
+        $("#safeguardButtenA").css("color","#ffffff");
+        $("#safeguardButtenB").css("color","#ffffff");
         $("#safeguardButtenC").css("color","#1f8ffd");
     })
     $("#dataA").click(function(){
         $("#dataShowA").removeClass("show-acos");
         $("#dataShowB").addClass("show-acos");
         $("#dataA").css("color","#1f8ffd");
-        $("#dataB").css("color","black");
+        $("#dataB").css("color","#ffffff");
     })
     $("#dataB").click(function(){
         $("#dataShowB").removeClass("show-acos");
         $("#dataShowA").addClass("show-acos");
-        $("#dataA").css("color","black");
+        $("#dataA").css("color","#ffffff");
         $("#dataB").css("color","#1f8ffd");
     });
 
